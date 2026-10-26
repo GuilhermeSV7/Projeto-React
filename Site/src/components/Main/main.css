@@ -1,0 +1,51 @@
+.Card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 244, 244);
+}
+
+.Titulo{
+    color: black;
+}
+
+p{
+    color: rgb(150, 143, 143);
+}
+
+ul{
+    
+    gap: 50px;
+}
+
+li{
+    color: white;
+    background-color: black;
+    display: flex;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.Livres{
+    background-color: #97D7FF;
+}
+
+.Tecnicos{
+    background-color: #FFCB3D;
+}
+
+.Graduacao{
+    background-color: #006199;
+}
+
+.Pos{
+    background-color: #C654C3;
+}
+
+.Certificado{
+    background-color: #76C457;
+}
+
+.Certificado:hover{
+    width: 200px;
+}

@@ -1,0 +1,31 @@
+header{
+    background-color: black;
+    padding: 15px; 
+}
+
+li{
+    /* Cada linha da lista*/
+    color: white;
+    list-style: none;
+}
+
+ul{
+    /* Lista Conjunta*/
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Curso{
+    color: orange;
+}
+
+h1{
+    color: white;
+}
+
+li:hover{
+    color: rgb(196, 64, 196);
+}
